@@ -9,7 +9,7 @@
 #define redpin 3                                                  //pwm output for RED anode use 1K resistor
 #define greenpin 5                                                //pwm output for GREEN anode use 2K resistor
 #define bluepin 6                                                 //pwm output for BLUE anode use 1K resistor
-
+#define Buzzer 9
 
 
 #define commonAnode false                                         // set to false if using a common cathode LED                     
@@ -36,7 +36,7 @@ void setup() {
   pinMode(redpin, OUTPUT);                                         //set redpin for output
   pinMode(greenpin, OUTPUT);                                       //set greenpin for output
   pinMode(bluepin, OUTPUT);                                        //set bluepin for output
-  
+  pinMode(Buzzer,OUTPUT);
                                                                    // thanks PhilB for this gamma table!
                                                                    // it helps convert RGB colors to what humans see
   for (int i=0; i<256; i++) {
@@ -52,15 +52,16 @@ void setup() {
     }
                                                                    //Serial.println(gammatable[i]);
   }
+  
+ 
 }
-
 
 void loop() {
   uint16_t clear, red, green, blue;                                 //declare variables for the colors
 
   // tcs.setInterrupt(false);                                          // turn on LED
 
-  delay(5000);                                                        // takes 50ms to read 
+  delay(1000);                                                        // takes 50ms to read 
   
   tcs.getRawData(&red, &green, &blue, &clear);                      //read the sensor
 
@@ -86,5 +87,18 @@ void loop() {
 
   analogWrite(redpin, gammatable[(int)r]);                          //light red led as per calculation
   analogWrite(greenpin, gammatable[(int)g]);                        //light green led as per calculation
-  analogWrite(bluepin, gammatable[(int)b]);                         //light blue led as per calculation
+  analogWrite(bluepin, gammatable[(int)b]);                        //light blue led as per calculation
+  
+  if (red > 500 & red <= 590 ) { //red
+    tone(Buzzer,988,100);
+  }
+  else if (green > 180 & green <= 290) { // green
+    tone(Buzzer,523,300);
+  }
+  else if (blue > 60 & blue <= 130) { //blue
+    tone(Buzzer,3000,300);
+  }
+  else if ((red > 900 & red <= 1100) & blue > 250 & b <=330) { //yellow
+    tone(Buzzer,1047,300);
+  }
 }
