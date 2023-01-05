@@ -23,11 +23,11 @@ tags: LSA
 | 設備名稱 | 圖片網址 | 來源 |
 |---------|---------|-------|
 | Raspberry Pi 4 | <img src="https://i.imgur.com/BEZPftv.jpg" width="50%x"> | 友情贊助(石安通學長提供) |
-| mbot車 | <img src="https://i.imgur.com/KK7WuRG.jpg width="50%x"> | 友情贊助(林宜蔓學姊提供) |
-| 無緣蜂鳴器 | <img src="https://i.imgur.com/flbA6mY.jpg width="50%x"> | moli提供|
-|杜邦線n | <img src="https://i.imgur.com/6GoIwi3.jpg width="50%x"> | 友情贊助(朋友n)|
-|Arduino | <img src="https://i.imgur.com/xTBTYco.jpg width="50%x"> | 友情提供(張中漢同學)|
-|顏色感測器| <img src="https://i.imgur.com/QJ597Ex.jpg width="50%x"> |蝦皮|
+| mbot車 | <img src="https://i.imgur.com/KK7WuRG.jpg" width="50%x"> | 友情贊助(林宜蔓學姊提供) |
+| 無緣蜂鳴器 | <img src="https://i.imgur.com/flbA6mY.jpg" width="50%x"> | moli提供|
+|杜邦線n | <img src="https://i.imgur.com/6GoIwi3.jpg" width="50%x"> | 友情贊助(朋友n)|
+|Arduino | <img src="https://i.imgur.com/xTBTYco.jpg" width="50%x"> | 友情提供(張中漢同學)|
+|顏色感測器| <img src="https://i.imgur.com/QJ597Ex.jpg" width="50%x"> |蝦皮|
 
     
 
