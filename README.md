@@ -1,4 +1,3 @@
-# lsa
 ---
 tags: LSA
 ---
@@ -51,7 +50,7 @@ tags: LSA
 |V|GND|
 |G|5V|
 
-## sexy car car photo & 成果影片
+## car car photo & 成果影片
 
 ## Job Assignment
 |  組員 | 工作分配 |
