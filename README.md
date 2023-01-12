@@ -1,9 +1,4 @@
----
-tags: LSA
----
-
 # 電流吉吉棒
-[TOC]
 - 原名: Listen, Watch, Run
 
 
