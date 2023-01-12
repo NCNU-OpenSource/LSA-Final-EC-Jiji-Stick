@@ -1,18 +1,23 @@
-# (Listen), Watch, Run
-[TOC]
+---
+tags: LSA
+---
 
+# 電流吉吉棒
+[TOC]
+- 原名: Listen, Watch, Run
 
 
 ## 實作念想 
 - 動機 : 
-    - 我們這組有幾個對於教育學習程式有興趣的組員，
-        想藉由樹梅派連結感測器做出與孩童學習相關的應用專題
+    - 中漢覺得吉娃娃面目可憎很討厭, 所以我們決定要讓它通過一連串的考驗, 我們設置了一段賽道, 賽道會有不同的電流, 當她碰到賽道就會被電擊, 當他被不同的電擊就會發出不同叫聲, 我們覺得他很吵, 所以需要大家協助這隻吉娃娃走過這個賽道, 讓他不要吉吉叫！科科
 - 功能 :
-    - 地圖顏色偵測, 採到顏色車子會發出不同音效
-        -  紅 : 音頻(988)
-        -  綠 : 音頻(523)
-        -  藍 : 音頻(3000)
-    - 車在地圖上走動
+    - 地圖顏色偵測
+    - 採到顏色車子會發出不同音效
+        -  紅(終點線) : 音效 [Century YEE](https://www.youtube.com/watch?v=OTk6m3U54po&ab_channel=KUSHLORD)
+        -  綠 : 音效 [TADAAH](https://www.youtube.com/watch?v=jLtbFWJm9_M&list=PLen20o33zLu53DXEZDy53UKH9CHknSMld&index=35&ab_channel=GamingSoundFX)
+        -  藍 : 音效 [HOT HOT HOT](https://www.youtube.com/watch?v=vFrNxJoB768&list=PLen20o33zLu53DXEZDy53UKH9CHknSMld&index=40&ab_channel=GamingSoundFX)
+        -  黃 : 音效 [YEE](https://www.youtube.com/watch?v=q6EoRBvdVPQ&ab_channel=revergo)
+    - 網頁控制開始紀錄時間
 
 
 ## 硬體設備
@@ -23,10 +28,8 @@
 | 藍芽喇叭        | ![](https://i.imgur.com/2W7WH8T.jpg width=“30%x”)|     張中漢提供             |
 | 杜邦線n         | ![](https://i.imgur.com/6GoIwi3.jpg width=“30%x”) | 友情贊助(朋友*n)        |
 | ~~Arduino~~    | ![](https://i.imgur.com/xTBTYco.jpg width=“30%x”) | 友情提供(張中漢同學)    |
-| 顏色感測器       | ![](https://i.imgur.com/QJ597Ex.jpg width=“30%x”) | 蝦皮購買                 |
+| 顏色感測器       | ![](https://i.imgur.com/QJ597Ex.jpg width=“30%x”) | 蝦皮                 |
 
-
-    
 
 
 ## 安裝設定過程
@@ -215,3 +218,7 @@ void loop() {
 
 ## 簡報
 https://www.canva.com/design/DAFWsbh7i_I/sOb-uMQBgqB8cr_T3EKsDw/edit?utm_content=DAFWsbh7i_I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+
+
+
